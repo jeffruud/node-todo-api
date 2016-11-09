@@ -16,9 +16,11 @@ const {MongoClient, ObjectID} = require('mongodb');
  	// });	
 
  	//findOneAndDelete
- 	db.collection('Todos').findOneAndDelete({completed: false}).then((result) => {
- 		console.log(result);
- 	});	
+ 	// db.collection('Todos').findOneAndDelete({completed: false}).then((result) => {
+ 	// 	console.log(result);
+ 	// });	
+
+ 	
 
 
 	//db.close();
